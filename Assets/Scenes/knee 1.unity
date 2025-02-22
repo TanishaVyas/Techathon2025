@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311926, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -600,7 +600,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.12941177, g: 0.15686275, b: 0.19607843, a: 1}
+  m_BackGroundColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -812,6 +812,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: back button
+      objectReference: {fileID: 0}
+    - target: {fileID: 521548849784800965, guid: a1e2d81dfc5c75548bfeafd5b5371a21,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2276637474561086308, guid: a1e2d81dfc5c75548bfeafd5b5371a21,
         type: 3}
@@ -2279,7 +2284,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 919132149241780675}
     - target: {fileID: 8235004733259369619, guid: 9a6527b6c2c665047a46654592b7d012,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName

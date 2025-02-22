@@ -32,11 +32,7 @@ public class movesoham : MonoBehaviour
     public int angle;
     void Start()
     {
-        while(data.Length <4)
-        {
-
-            
-        }
+    
 
         UpdateRotations();
         ResetInitialRotation();
